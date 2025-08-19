@@ -20,7 +20,7 @@ Key Features:
 - Performance timing metrics
 - Visualization options for debugging
 
-Basic Usage:
+# Code Basic Usage:
 ```python
 detector = aquaLocDetector()
 detector.enable_display()  # Optional: enable visualization
@@ -29,8 +29,9 @@ detector.set_method(0)     # Select processing method (0=CLAHE, 1=Iterative, 2=N
 # For each frame:
 corners, ids, rejected = detector.detect_aqualoc(image_frame)
 
-# How to use the Design: 
+```
 
+# How to use the Design: 
 From the 3D-BM_stl folder. 
 1- Pick the ArUco marker, and print using white color (Available 4x4_DICT_ARUCO ID:13-14-15-28-30-34-35-41-42-43-49). 
 2- Pick the Enclosure and print using black color: 
@@ -38,7 +39,7 @@ From the 3D-BM_stl folder.
   b- With pattern, only in very clear scenarios. 
 
 
-Bibtex Citation: 
+# Bibtex Citation: 
 
 @Article{jmse13081442,
 AUTHOR = {Chaarani, Alaaeddine and Cieslak, Patryk and Esteba, Joan and Eichhardt, Ivan and Ridao, Pere},
